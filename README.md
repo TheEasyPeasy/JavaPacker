@@ -27,7 +27,7 @@ encryptionKey  | 16 bytes(length) key | Key used to AES encryption
 useNullByteName  | true/false | Method add \u0000 to the beginning of the class name. This method allows you to hide class names and prevent them from unpacking by popular archivers like WinRar
 fakeDirectory  | true/false | https://github.com/x4e/fakedirectory - completely unavailable to anyone using WinRAR, Luyten and every other zip viewer.
 
-## Comments
+## My comment
 
 Such a packer <b>is not a protection you can rely on</b>. It can only come in handy against total noobs. If you already want to use it somewhere to add extra protection to your application - Please obfuscate the loader.
 Remember that there are tons of ways to get around this - memory dump, defineClass hook, javaagent ... etc
